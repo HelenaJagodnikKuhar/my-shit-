@@ -1,0 +1,78 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+/*
+.container {
+	background-color: red;
+}*/
+
+
+.container-navigation {
+	padding-top: 75px;
+	padding-bottom: 64px;
+}
+
+
+
+
+.recipes-conteiner {
+	background-color: #FF69B4;
+}
+
+/* cctooltip Box */
+
+.cctooltip {
+    color: white;
+    font-style: italic;
+    line-height: 20px;
+    margin-top: 212px;
+    /*opacity: 0;*/
+    position: absolute;
+    text-align: left;
+    opacity: 1;
+	-webkit-transition: all 1s ease-out 0.6s;
+	-moz-transition: all 1s ease-out 0.6s;
+	-o-transition: all 1s ease-out 0.6s;
+	transition: all 1s ease-out 0.6s;
+	
+}
+
+.cctooltip h5 {
+	 color: white;
+	 margin: 0 0 5px;
+     font-weight: normal;
+	 font-size: 16px;
+	 font-style: normal;
+	 background: none repeat scroll 0 0 #9400D3;
+	 padding: 5px;
+	 line-height: 20px;
+	 height: 26px;
+	 /*width:106px;*/
+}
+
+/*.text h3 {
+}*/
+
+
+
+/* end of cctooltip Box */
+
+
+
+
+
+/*.col-md-4-health {
+	background-color: #008B8B;	
+}
+
+.col-md-4-active {
+	background-color: #9400D3;
+}
+
+.col-md-4-makeyourown {
+	background-color: #6495ED;
+}*/
