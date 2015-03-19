@@ -1,4 +1,4 @@
-/* Move down content because we have a fixed navbar that is 50px tall */
+/*/*/* Move down content because we have a fixed navbar that is 50px tall */
 
 body {
   padding-top: 50px;
@@ -62,17 +62,19 @@ body {
 /* end of cctooltip Box */
 
 
+.row2 {
+	background-color: #9400D3;	
+}
 
 
-
-/*.col-md-4-health {
+.row {
 	background-color: #008B8B;	
 }
 
-.col-md-4-active {
+./*col-md-4-active {
 	background-color: #9400D3;
 }
 
 .col-md-4-makeyourown {
 	background-color: #6495ED;
-}*/
+}*/*/*/*/
