@@ -31,8 +31,8 @@
 
     <body>
 
-      <!-- Static navbar -->
-    <nav class="navbar navbar-default navbar-static-top">
+     <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -41,13 +41,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="https://www.facebook.com/jasmina.jagodnik?fref=ts">JASMINA'S BLOG</a>
+          <a class="navbar-brand" href="https://www.facebook.com/jasmina.jagodnik?fref=ts&ref=br_tf">Jasmina's Blog</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li class="active"><a href="https://www.facebook.com/jasmina.jagodnik?fref=ts&ref=br_tf">Home</a></li>
+            <li><a href="https://www.facebook.com/jasmina.jagodnik?fref=ts&ref=br_tf">About</a></li>
+            <li><a href="https://www.facebook.com/jasmina.jagodnik?fref=ts&ref=br_tf">Contact</a></li>
            <!--  <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
@@ -61,10 +61,10 @@
               </ul>
             </li> -->
           </ul>
-         <!--  <ul class="nav navbar-nav navbar-right">
+        <!--   <ul class="nav navbar-nav navbar-right">
             <li><a href="../navbar/">Default</a></li>
-            <li class="active"><a href="./">Static top <span class="sr-only">(current)</span></a></li>
-            <li><a href="../navbar-fixed-top/">Fixed top</a></li>
+            <li><a href="../navbar-static-top/">Static top</a></li>
+            <li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li>
           </ul> -->
         </div><!--/.nav-collapse -->
       </div>
@@ -81,54 +81,24 @@
 
       <!-- MAIN STATYS BAR-->
 
-      <div class="container-navigation">
-        <div class="row">
-          <div class="col-md-3">ALL</div>
-          <div class="col-md-6">
-            <div class="row">
-              <div class="col-md-4">HEALTH</div>
-              <div class="col-md-4">ACTIVE LIFE</div>
-              <div class="col-md-4">RECIPES</div>
-            </div>
-          </div>
-          <div class="col-md-3">MAKE YOUR OWN SHIT</div>
-        </div>
-      </div>
-      <div class="container-navigation2">
-        <div class="row">
-          <div class="col-md-4">empty space</div>
-          <div class="col-md-4">
-            <div class="row">
-              <div class="col-md-4">
-                 <div class="row">
-                  <div class="col-md-4">empty </div>
-                  <div class="col-md-4">ALL</div>
-                  <div class="col-md-4">RECIPES</div>
-                  </div>
-              </div>
-              <div class="col-md-4">
-                <div class="row">
-                 <div class="col-md-4">HEALTH</div>
-                  <div class="col-md-4">BEING ACTIVE</div>
-                  <div class="col-md-4">MAKE </div>
-                  </div>
-              </div>
-              <div class="col-md-4">
-              <div class="row">
-                 <div class="col-md-4">HEALTH</div>
-                  <div class="col-md-4">BEING ACTIVE</div>
-                  <div class="col-md-4">MAKE </div>
-                  </div>
-            </div>
-          </div>
-          <div class="col-md-4">empty space</div>
-        </div>
-      </div>
+ 
+ <!-- /.navbar meni -->
 
+ <div class="meni">
+
+ <a class="prvi1" href="###">ALL</a>
+ <a class="drugi1" href="###">RECEPIES</a>
+ <a class="tretji1" href="###">HEALTH</a>
+ <a class="cetrti1" href="###">ACTIVE LIFE</a>
+ <a class="peti"href="###">MAKE YOUR OWN</a>
+ </div>
 
 
       <div class="container">
-        <!-- Example row of columns -->
+        <!-- Example row of FIRST columns -->
+
+
+        
         <div class="row">
           <div class="col-md-4">
             <div class="recipes-conteiner">
@@ -170,6 +140,9 @@
           </div>
         </div>
         </div>
+
+
+
         <!-- Example row of SECOUND columns -->
         <div class="row">
         <div class="col-md-4">
@@ -212,19 +185,26 @@
     </div>
   </div>
 </div> <!--  RAW-->
+
+
+<!--Example row of THIRD columns -->
+
+ <div class="row">
+        <div class="col-md-4">
+        <div class="recipes-conteiner">
+         <div class="cctooltip">
+          <a href="####"><h5>MAKE YOUR OWN</h5></a>
+        </div>
+        <a href="recipes"><img src="images/homemade.jpg"></a>
+        <div class="text">
+          <h4>DEODORANT MADE AT HOME</h4>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum ma.</p>
+          <p><a class="btn btn-default" href="#" role="button">Learn more &raquo;</a></p>
+        </div>
+        </div>
+      </div>
+     </div>
 </div><!--  CONTAINER-->
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -232,7 +212,7 @@
 <hr>
 
 <footer>
-  <p>&copy; Company 2014</p>
+  <p>&copy; Jasmina Jagodnik 2015</p>
 </footer>
 </div> <!-- /container -->
 
@@ -241,8 +221,15 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="../..//bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- kopirala napaka popravljena dropdawn didn't work http://stackoverflow.com/questions/22383547/bootstrap-dropdown-menu-is-not-working -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+
+<script src="js/bootstrap.min.js"></script>
   </body>
   </html>

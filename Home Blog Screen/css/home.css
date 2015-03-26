@@ -1,36 +1,75 @@
-/*/*/* Move down content because we have a fixed navbar that is 50px tall */
+
 
 body {
   padding-top: 50px;
   padding-bottom: 20px;
+   min-height: 2000px;
 }
 
-/*
+.meni {
+	text-align: center;
+}
+
+.meni a {
+	display: inline-block;
+	margin: 0px 20px;
+}
+
+.prvi {
+	  padding-right: 90px;
+}
+.drugi {
+  padding: 0px 140px 0px 0px;
+}
+.tretji {
+	  padding: 0px 0px 0px 0px;
+}
+.cetrti {
+	 padding: 0px 0px 0px 0px;
+}
+.peti {
+	padding-left: 0px;
+}
+/* END OF navbar two*/
+
+.prvi1, .drugi1, .tretji1, .cetrti1, .peti1 {
+	display: inline-block;
+}
+
+
+
+
 .container {
 	background-color: red;
-}*/
+}
 
+.proba {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.navbar-static-top {
+  margin-bottom: 19px;
+}
 
 .container-navigation {
 	padding-top: 75px;
 	padding-bottom: 64px;
 }
 
-
-
-
 .recipes-conteiner {
 	background-color: #FF69B4;
+	/*float: left;*/
 }
 
-/* cctooltip Box */
+/* cctooltip Bo*/
 
 .cctooltip {
     color: white;
     font-style: italic;
     line-height: 20px;
     margin-top: 212px;
-    /*opacity: 0;*/
+    opacity: 0;
     position: absolute;
     text-align: left;
     opacity: 1;
@@ -51,15 +90,13 @@ body {
 	 padding: 5px;
 	 line-height: 20px;
 	 height: 26px;
-	 /*width:106px;*/
+
 }
 
 /*.text h3 {
-}*/
+}
 
-
-
-/* end of cctooltip Box */
+ /*end of cctooltip Box */
 
 
 .row2 {
@@ -71,10 +108,34 @@ body {
 	background-color: #008B8B;	
 }
 
-./*col-md-4-active {
+.col-md-4-active {
 	background-color: #9400D3;
 }
 
 .col-md-4-makeyourown {
 	background-color: #6495ED;
-}*/*/*/*/
+}
+
+
+
+ /*end of cctooltip Box */
+
+ footer {
+ 	background-color: #333;
+ 	padding-top: 20px;
+ 	padding-bottom: 20px;
+ 	font-weight: 200;
+ 	color: #fefefe;
+
+ }
+
+
+@media (max-width: 500px) {
+    .meni a{
+	display: block;
+	margin: 0px 20px;
+  }
+
+}
+
+
