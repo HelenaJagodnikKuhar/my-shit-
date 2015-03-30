@@ -1,18 +1,40 @@
 
 
 body {
+  font-family: "Raleway", "Helvetica Neue", Helvetica, sans-serif;
   padding-top: 50px;
-  padding-bottom: 20px;
-   min-height: 2000px;
+  min-height: 2000px;
+}
+
+.navbar-default {
+	font-family: "Raleway", "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	background-color: #f6f6f6;
+	text-transform: uppercase;
+}
+
+.jumbotron {
+	background-color: white;
+    margin-bottom: 0px; 
+    padding-top: 74px;
 }
 
 .meni {
+	font-family: "Raleway", "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 18px;
 	text-align: center;
+	padding-bottom: 64px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: inherit;
+
 }
 
 .meni a {
 	display: inline-block;
 	margin: 0px 20px;
+	color: inherit;
 }
 
 .prvi {
@@ -37,10 +59,40 @@ body {
 }
 
 
+.portfolioWrapper{
+	position: relative;
+    overflow: hidden;
+} 
 
+.portfolioWrapper img{
+  width: 100%;
+  opacity: 1;
+/*  -webkit-transform: scale(1,1);
+*/  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 250ms;
+  /*-moz-transform: scale(1,1);*/
+  -moz-transition-timing-function: ease-out;
+  -moz-transition-duration: 250ms;
+}
 
-.container {
-	background-color: red;
+.portfolioWrapper img:hover{
+  /*opacity: .7;*/
+  -webkit-transform: scale(1.05,1.07);
+ /* -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 250ms;
+  -moz-transform: scale(1.05,1.07);
+  -moz-transition-timing-function: ease-out;
+  -moz-transition-duration: 250ms;
+  position: relative;
+  z-index: 99;*/
+}
+
+.container h3 {
+	text-align: center;
+}
+
+#option {
+	text-align: center;
 }
 
 .proba {
@@ -58,8 +110,8 @@ body {
 }
 
 .recipes-conteiner {
-	background-color: #FF69B4;
-	/*float: left;*/
+	background-color: #f6f6f6;
+	margin-bottom: 25px;
 }
 
 /* cctooltip Bo*/
@@ -68,7 +120,7 @@ body {
     color: white;
     font-style: italic;
     line-height: 20px;
-    margin-top: 212px;
+    /*margin-top: 206px;*/
     opacity: 0;
     position: absolute;
     text-align: left;
@@ -77,29 +129,50 @@ body {
 	-moz-transition: all 1s ease-out 0.6s;
 	-o-transition: all 1s ease-out 0.6s;
 	transition: all 1s ease-out 0.6s;
-	
+	bottom: 0px;	
 }
 
 .cctooltip h5 {
+	 margin: 0px;
 	 color: white;
-	 margin: 0 0 5px;
      font-weight: normal;
 	 font-size: 16px;
 	 font-style: normal;
-	 background: none repeat scroll 0 0 #9400D3;
-	 padding: 5px;
+	 /*background: none repeat scroll 0 0 #9400D3;*/
+	 padding: 3px;
 	 line-height: 20px;
 	 height: 26px;
-
+	 text-transform: uppercase;
 }
 
-/*.text h3 {
+.recipes {
+  background: none repeat scroll 0 0 #462800;
+}
+
+.health {
+  background: none repeat scroll 0 0 #005ffc;
+}
+
+.active-life {
+   background: none repeat scroll 0 0 #ff6035;
+}
+
+.recipes {
+   background: none repeat scroll 0 0 #462800;
+}
+
+.make {
+   background: none repeat scroll 0 0 #005ffe;
 }
 
  /*end of cctooltip Box */
 
 
-.row2 {
+.text {
+	padding: 20px 20px 20px 20px;
+}
+
+/*.row2 {
 	background-color: #9400D3;	
 }
 
@@ -115,27 +188,25 @@ body {
 .col-md-4-makeyourown {
 	background-color: #6495ED;
 }
+*/
 
 
-
- /*end of cctooltip Box */
 
  footer {
- 	background-color: #333;
- 	padding-top: 20px;
- 	padding-bottom: 20px;
- 	font-weight: 200;
- 	color: #fefefe;
+ 	background-color: #f6f6f6;
+ 	padding-top: 40px;
+ 	padding-bottom: 40px;
+ 	font-weight: 400;
+ 	text-align: center;
+ 	border-top: 1px solid #eee;
 
  }
-
 
 @media (max-width: 500px) {
     .meni a{
 	display: block;
 	margin: 0px 20px;
   }
-
 }
 
 
