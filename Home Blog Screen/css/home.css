@@ -34,7 +34,7 @@ body {
 	display: inline-block;
 	margin: 0px 20px;
 	color: inherit;
-	text-decoration: none;
+/*	text-decoration: none;*/
 }
 
 .meni .active {
